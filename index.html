@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Web Development Survey Form </h1>
+            <p id="description">Thank you taking the time to help us for the Research</p>
+        </header>
+        <form action="" id="survey-form" >
+            <div class="form-container">
+                <label for="name" id="name-label"> Name:</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-container">
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-container">
+                <label for="age" id="number-label">Age(optional)</label><br>
+                <input type="number" name="age" id="number" placeholder="Age"  min="10" max="99">
+                <div>
+                    <label for="current role" id="dropdown">Which best describe your current role?</label><br>
+                    <select class="ui-dropdown">
+                        <option value="">Select current role</option>
+                        <option value="2">Front-end Web Developer</option>
+                        full-stack developer
+                        <option value="1">Back-end web Developer</option>
+                        <option value="0">Full-stack Web Developer</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="learned coding" >From where did you learned the coding</label><br>
+                    <input type="radio" id="radio" name="method" value="college">
+                    <label for="coding">School/College</label><br>
+                    <input type="radio" id="radio" name="method" value="online">
+                    <label for="coding
+                    ">Online</label><br>
+                </div>
+                <div>
+                    <p>What is your favorite feature of freecodecamp ?</p>
+                    <select name="" id="dropdown">
+                        <option disabled="" selected="" value="">Select an option</option>
+                        <option value="skdjflka">av</option>
+                        <option value="skdjflka">av</option>
+                    </select>
+                </div>
+                <div>
+                    .
+                    <p>What all you used to learn web development</p>
+                    <input type="checkbox" id="learning-method-1" name="vehicle1" value="Books">
+                    <label for="learning-method">Books</label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-2" value="Documentation">
+                    <label for="learning-method">Documentation</label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-3" value="Codeacademy">
+                    <label for="learning-method">Codeacademy</label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-4" value="Team Treehouse">
+                    <label for="learning-method">Team Treehouse</label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-5" value="freecodecamp">
+                    <label for="learning-method">Freecodecamp</label><br>
+                    <!-- <input type="checkbox" id="learning-method" name="learning-method-" value="">
+                    <label for="learning-method"></label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-" value="">
+                    <label for="learning-method"></label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-" value="">
+                    <label for="learning-method"></label><br>
+                    <input type="checkbox" id="learning-method" name="learning-method-" value="">
+                    <label for="learning-method"></label><br> -->
+
+                </div>
+                <div>
+                    <p>Any comment or suggestion for newcommer?</p>
+                    <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                </div>   
+            </div><br>
+            <button id="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
